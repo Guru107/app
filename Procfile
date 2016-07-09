@@ -1,1 +1,1 @@
-server: node server.js -p 80
+server: node server.js -p $PORT

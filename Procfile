@@ -1,1 +1,1 @@
-web: node server.js -p 80
+web: node server.js

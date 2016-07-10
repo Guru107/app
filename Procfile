@@ -1,1 +1,1 @@
-web:NODE_ENV=production node server.js -p $PORT
+web:babel --minified ./src/ --out-dir ./build/ && PORT=8080 NODE_ENV='production' node ./build/app.js -p $PORT

@@ -1,1 +1,1 @@
-web: node server.js -p $PORT
+web:NODE_ENV=production node server.js -p $PORT

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "local": "NODE_ENV='development' node server.js",
-    "preinstall":"npm install && babel --minified ./src/ --out-dir ./build/",
+    "preinstall":"babel --minified ./src/ --out-dir ./build/",
     "start": "node ./build/app.js",
     "babel-help": "babel --help"
   },

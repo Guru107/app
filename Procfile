@@ -1,1 +1,1 @@
-web:babel --minified ./src/ --out-dir ./build/ && node ./build/app.js -p $PORT
+web:node ./build/app.js -p $PORT
